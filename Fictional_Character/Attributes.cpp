@@ -23,6 +23,10 @@ int main() {
 
 	character = fName + " " + lName + ", " + address + ", " + city + " " + to_string(zipCode);
 
-	cout << character;
-	cout << "Exiting... Goodbye";
+	cout << "\n" + character << endl;
+
+	cout << "Exiting..." << endl;
+	system("pause");
+
+	return 0;
 }
